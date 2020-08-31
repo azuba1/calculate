@@ -1,0 +1,19 @@
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "description": "calculator app with node.js",
+  "main": "calculator.js",
+  "scripts": {
+    "dev": "nodemon calculator",
+    "start": "node calculator"
+  },
+  "author": "Joseph Azumah Bayata",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
